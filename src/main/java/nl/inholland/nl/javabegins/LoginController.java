@@ -22,7 +22,7 @@ public class LoginController {
         String username = usernameField.getText();
         String password = passwordField.getText();
 
-        if (username.equals("admin") && password.equals("1234")) {
+        if (username.equals("admin") && password.equals("admin")) {
             messageLabel.setText("Welcome, " + username);
         } else {
             messageLabel.setText("Invalid username/password");
